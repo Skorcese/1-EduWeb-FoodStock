@@ -1,0 +1,21 @@
+@import "../../variables.scss";
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 2rem;
+    background-color: rgb(179, 179, 179);
+
+    h1 {
+        margin-left: 2rem;
+        font-size: 3rem;
+        text-shadow: 1px 1px 1px rgb(207, 207, 207), 0 1px 1px blue, 0 1px 1px blue;
+        ;
+    }
+
+    button {
+        margin: .5rem;
+    }
+}

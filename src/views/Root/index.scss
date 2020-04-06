@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+
+$color-1: #121619;
+$color-2: #2D4739;
+$color-3: #09814A;
+$color-4: #BCB382;
+$color-5: #E6C687;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(220, 233, 231);
+  margin: 0;
+  padding: 0;
+  font-family: "Sen", sans-serif;
+  color: $color-1;
+}
+
+.nightMode * {
+  filter: invert(1)
+}

@@ -1,0 +1,56 @@
+.item {
+    background-color: rgb(179, 179, 179);
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    height: 7rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.image {
+    height: inherit;
+    width: 7rem;
+}
+
+.name {
+    font-size: 1.8rem;
+    text-decoration: none;
+    border: 1px solid rgb(216, 216, 216);
+    background-color: white;
+    border-radius: 1rem;
+    transition: all .1s ease-in-out;
+    font-weight: 700;
+    height: 3rem;
+    width: 20rem;
+    max-width: 35rem;
+    text-align: center;
+}
+
+.name:hover {
+    background-color: black;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.category {
+    font-size: 2rem;
+    color: gray;
+}
+
+.quantity {
+    color: rgb(139, 138, 43);
+    font-size: 1.6rem;
+}
+
+.minQuantity::before {
+    content: 'min: ';
+    font-size: 1rem;
+}
+
+button {
+    margin-right: 1rem;
+}

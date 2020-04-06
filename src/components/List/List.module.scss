@@ -1,0 +1,14 @@
+.wrapper {
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.titles {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
